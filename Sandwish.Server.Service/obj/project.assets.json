@@ -3015,11 +3015,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desenvolvimento\\Dextra\\app\\Sandwish.Server.Service\\Sandwish.Server.Service.csproj",
+      "projectUniqueName": "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Service\\Sandwish.Server.Service.csproj",
       "projectName": "Sandwish.Server.Service",
-      "projectPath": "C:\\Desenvolvimento\\Dextra\\app\\Sandwish.Server.Service\\Sandwish.Server.Service.csproj",
+      "projectPath": "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Service\\Sandwish.Server.Service.csproj",
       "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
-      "outputPath": "C:\\Desenvolvimento\\Dextra\\app\\Sandwish.Server.Service\\obj\\",
+      "outputPath": "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -3040,8 +3040,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Desenvolvimento\\Dextra\\app\\Sandwish.Server.Repository\\Sandwish.Server.Repository.csproj": {
-              "projectPath": "C:\\Desenvolvimento\\Dextra\\app\\Sandwish.Server.Repository\\Sandwish.Server.Repository.csproj"
+            "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Repository\\Sandwish.Server.Repository.csproj": {
+              "projectPath": "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Repository\\Sandwish.Server.Repository.csproj"
             }
           }
         }

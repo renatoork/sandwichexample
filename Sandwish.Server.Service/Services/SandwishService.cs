@@ -16,13 +16,14 @@ namespace Sandwish.Server.Service
             _repository = repository;
         }
 
-        public async Task<IEnumerable<Product>> GetProducts()
+        public async Task<IEnumerable<Product>> GetCarts()
         {
-            return await _repository.GetProducts();
+            return null;// await _repository.GetCarts();
         }
-        public async Task<IEnumerable<Ingredient>> GetIngredients()
+        public async Task<Product> SetCarts(Cart cart)
         {
-            return await _repository.GetIngredients();
+            return null;// await _repository.SetCarts(cart);
         }
+
     }
 }

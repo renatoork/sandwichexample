@@ -36,6 +36,14 @@
         "runtime": {
           "Sandwish.Server.dll": {}
         },
+        "resources": {
+          "en-US/Sandwish.Server.resources.dll": {
+            "locale": "en-US"
+          },
+          "pt-BR/Sandwish.Server.resources.dll": {
+            "locale": "pt-BR"
+          }
+        },
         "compile": {
           "Sandwish.Server.dll": {}
         }

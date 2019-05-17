@@ -24,3 +24,15 @@ C:\Desenvolvimento\Dextra\web\sandwichexample\Sandwish.Server.Service\bin\Debug\
 C:\Desenvolvimento\Dextra\web\sandwichexample\Sandwish.Server.Service\bin\Debug\netcoreapp2.2\Sandwish.Server.Repository.dll
 C:\Desenvolvimento\Dextra\web\sandwichexample\Sandwish.Server.Service\bin\Debug\netcoreapp2.2\Sandwish.Server.Repository.pdb
 C:\Desenvolvimento\Dextra\web\sandwichexample\Sandwish.Server.Service\obj\Debug\netcoreapp2.2\Sandwish.Server.Service.csproj.CopyComplete
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server.Service\bin\Debug\netcoreapp2.2\Sandwish.Server.Service.deps.json
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server.Service\bin\Debug\netcoreapp2.2\Sandwish.Server.Service.dll
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server.Service\bin\Debug\netcoreapp2.2\Sandwish.Server.Service.pdb
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server.Service\bin\Debug\netcoreapp2.2\Sandwish.Server.Repository.dll
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server.Service\bin\Debug\netcoreapp2.2\Sandwish.Server.Repository.pdb
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server.Service\obj\Debug\netcoreapp2.2\Sandwish.Server.Service.csprojAssemblyReference.cache
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server.Service\obj\Debug\netcoreapp2.2\Sandwish.Server.Service.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server.Service\obj\Debug\netcoreapp2.2\Sandwish.Server.Service.AssemblyInfoInputs.cache
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server.Service\obj\Debug\netcoreapp2.2\Sandwish.Server.Service.AssemblyInfo.cs
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server.Service\obj\Debug\netcoreapp2.2\Sandwish.Server.Service.csproj.CopyComplete
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server.Service\obj\Debug\netcoreapp2.2\Sandwish.Server.Service.dll
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server.Service\obj\Debug\netcoreapp2.2\Sandwish.Server.Service.pdb

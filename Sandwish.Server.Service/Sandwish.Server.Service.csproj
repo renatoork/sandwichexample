@@ -5,12 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Core\**" />
-    <EmbeddedResource Remove="Core\**" />
-    <None Remove="Core\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Sandwish.Server.Repository\Sandwish.Server.Repository.csproj" />
   </ItemGroup>
 

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Sandwish.Server.Exceptions;
 using Sandwish.Server.Repository.Models;
 using System;
 using System.Collections.Generic;
@@ -16,16 +17,23 @@ namespace Sandwish.Server.Service
         {
             _service = service;
         }
-        [HttpGet("products")]
-        public IEnumerable<Product> GetProducts()
+
+        [HttpGet("cart")]
+        public IEnumerable<Cart> GetCart()
         {
-            return _service.GetProducts().GetAwaiter().GetResult() ;
+            return null;// _service.GetCarts().GetAwaiter().GetResult() ;
         }
 
-        [HttpGet("ingredients")]
-        public IEnumerable<Ingredient> GetIngredients()
+        [HttpPost("cart")]
+        public Product SetCart(Cart cart)
         {
-            return _service.GetIngredients().GetAwaiter().GetResult();
+            return null; // _service.SetCarts(cart).GetAwaiter().GetResult();
+        }
+
+        [HttpGet("Exception")]
+        public IActionResult Exception()
+        {
+            throw new ErrorTestException();
         }
     }
 }

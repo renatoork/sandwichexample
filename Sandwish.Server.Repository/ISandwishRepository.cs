@@ -8,8 +8,6 @@ namespace Sandwish.Server.Repository
 {
     public interface ISandwishRepository
     {
-        Task<List<Product>> GetProducts();
-        Task<List<Ingredient>> GetIngredients();
         Task AddCart(Cart card);
     }
 }

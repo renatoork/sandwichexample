@@ -14,16 +14,9 @@ namespace Sandwish.Server.Repository.Models
             using (var context = new SandwishDbContext(serviceProvider.GetRequiredService<DbContextOptions<SandwishDbContext>>()))
             {
 
-                SetIngredients(context);
-                SetProducts(context);
-
-            }
-
-            void SetIngredients(SandwishDbContext context)
-            {
                 if (context.Ingredients.Any())
                 {
-                    return;   // Database has been seeded
+                    return;
                 }
 
                 context.Ingredients.AddRange(
@@ -56,33 +49,25 @@ namespace Sandwish.Server.Repository.Models
                         IngredientId = 5,
                         Name = "Queijo",
                         Price = 1.5
-                    });
+                    }
+                 );
                 context.SaveChanges();
 
-            }
-            void SetProducts(SandwishDbContext context)
-            {
                 if (context.Products.Any())
                 {
-                    return;   // Database has been seeded
+                    return;
                 }
 
-                context.Products.AddRange(
-                    new Product
-                    {
-                        ProductId = 1,
-                        Name = "X-Bacon",
-                        Ingredients = new List<Ingredient>()
-                        {
-                            context.Ingredients.Where(x => x.IngredientId==2).FirstOrDefault(),
-                            context.Ingredients.Where(x => x.IngredientId==3).FirstOrDefault(),
-                            context.Ingredients.Where(x => x.IngredientId==5).FirstOrDefault(),
-
-                        }
-                    }
-                );
+                List<Ingredient> ing = context.Ingredients.Where(i => i.IngredientId == 2 || i.IngredientId == 3 || i.IngredientId == 5).ToList();
+                var prod = new Product
+                {
+                    ProductId = 1,
+                    Name = "X-Bacon",
+                    Ingredients = ing
+                };
+                context.Products.Add(prod);
                 context.SaveChanges();
-            }
+            };
         }
     }
 }

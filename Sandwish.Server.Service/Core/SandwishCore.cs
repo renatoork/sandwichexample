@@ -11,26 +11,44 @@ namespace Sandwish.Server.Service
     {
         public double GetPrice(List<Ingredient> ingredients)
         {
-            double price = ingredients.Select(v => v.Price).Sum();
-            price = GetPromotionLight(ingredients, price);
-            price = GetPromotionALotOf(ingredients, price, "Hamburguer");
-            price = GetPromotionALotOf(ingredients, price, "Queijo");
-            return price;
+            try
+            {
+                double price = ingredients.Select(v => v.Price).Sum();
+                price -= GetPromotionLight(ingredients, price);
+                price -= GetPromotionALotOf(ingredients, "Hamburguer");
+                price -= GetPromotionALotOf(ingredients, "Queijo");
+                return price;
+            } catch
+            {
+                return 0;
+            }
         }
 
-        public double GetPromotionALotOf(List<Ingredient> ingredients, double price, string meal)
+        public double GetPromotionALotOf(List<Ingredient> ingredients, string meal)
         {
-            int meats = ingredients.Where(x => x.Name.Contains(meal)).Count() / 3;
-            price = 2 * meats * ingredients.Where(x => x.Name.Contains(meal)).FirstOrDefault().Price;
-            return price;
+            try
+            {
+                double price = ingredients.Where(x => x.Name.Contains(meal)).FirstOrDefault().Price;
+                double meats = ingredients.Where(x => x.Name.Contains(meal)).Count();
+                return price * (int)(meats / 3);
+            } catch
+            {
+                return 0;
+            }
         }
 
         public double GetPromotionLight(List<Ingredient> ingredients, double price)
         {
-            var lettuce = ingredients.Exists(l => l.Name.Equals("Alface"));
-            var bacon = ingredients.Exists(l => l.Name.Equals("Bacon"));
-            if (lettuce && !bacon) return price*0.9;
-            return price;
+            try
+            {
+                var lettuce = ingredients.Exists(l => l.Name.Equals("Alface"));
+                var bacon = ingredients.Exists(l => l.Name.Equals("Bacon"));
+                if (lettuce && !bacon) return price * 0.1;
+                return 0;
+            } catch
+            {
+                return 0;
+            }
         }
     }
 }

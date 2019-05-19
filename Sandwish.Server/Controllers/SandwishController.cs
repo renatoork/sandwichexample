@@ -12,10 +12,27 @@ namespace Sandwish.Server.Service
     public class SandwishController : ControllerBase
     {
         private SandwishService _service;
+        private SandwishCore _core;
+        private RegisterService _register;
 
-        public SandwishController(SandwishService service)
+        public SandwishController(RegisterService register, SandwishService service, SandwishCore core)
         {
             _service = service;
+            _core = core;
+            _register = register;
+        }
+
+        [HttpGet("PriceByProductId")]
+        public double PriceByProductId(int id)
+        {
+            var product = _register.GetProduct(id).GetAwaiter().GetResult();
+            return _core.GetPrice(product.Ingredients);
+        }
+
+        [HttpGet("PriceByIngredients")]
+        public double PriceByIngredients(List<Ingredient> ingredients)
+        {
+            return _core.GetPrice(ingredients);
         }
 
         [HttpGet("cart")]

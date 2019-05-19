@@ -24,5 +24,6 @@ namespace Sandwish.Server.Repository
                 .HasMany(b => b.Ingredients)
                 .WithOne();
         }
+
     }
 }

@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandwish.Server", "Sandwish.Server\Sandwish.Server.csproj", "{1052AB4D-F0B5-4B28-88D9-88088C715CF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandwish.Server.Repository", "Sandwish.Server.Repository\Sandwish.Server.Repository.csproj", "{86FDB9FE-32A7-40D6-A421-2FD875DE342A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandwish.Server.Repository", "Sandwish.Server.Repository\Sandwish.Server.Repository.csproj", "{86FDB9FE-32A7-40D6-A421-2FD875DE342A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandwish.Server.Service", "Sandwish.Server.Service\Sandwish.Server.Service.csproj", "{25144D1E-FF34-466F-9835-F66BFC66C41B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandwish.Server.Service", "Sandwish.Server.Service\Sandwish.Server.Service.csproj", "{25144D1E-FF34-466F-9835-F66BFC66C41B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandwish.Test", "Sandwish.Test\Sandwish.Test.csproj", "{0DF7B519-7959-4671-A3B7-3D09982FB7FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{25144D1E-FF34-466F-9835-F66BFC66C41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25144D1E-FF34-466F-9835-F66BFC66C41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25144D1E-FF34-466F-9835-F66BFC66C41B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF7B519-7959-4671-A3B7-3D09982FB7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF7B519-7959-4671-A3B7-3D09982FB7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF7B519-7959-4671-A3B7-3D09982FB7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF7B519-7959-4671-A3B7-3D09982FB7FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

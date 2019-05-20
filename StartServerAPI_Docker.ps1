@@ -10,7 +10,7 @@ if ($LASTEXITCODE -eq 0) {
         dotnet publish
         if ($LASTEXITCODE -eq 0) {
             Write-Output "Exec Server"
-            docker build -t serverapi
+            docker build -t serverapi .
             docker run -p 5001:5001 serverapi
         } else {
             Write-Output "Publish fail"    
@@ -21,10 +21,4 @@ if ($LASTEXITCODE -eq 0) {
 } else {
     Write-Output "Build fail"
 }
-Write-Output ""
-Write-Output ""
-Write-Output ""
-Write-Output ""
-Write-Output ""
-Write-Output ""
-Write-Output ""
+

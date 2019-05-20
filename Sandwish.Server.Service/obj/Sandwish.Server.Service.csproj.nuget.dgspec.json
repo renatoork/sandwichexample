@@ -1,39 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Service\\Sandwish.Server.Service.csproj": {}
+    "C:\\Desenvolvimento\\sandwichexample\\Sandwish.Server.Service\\Sandwish.Server.Service.csproj": {}
   },
   "projects": {
-    "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Repository\\Sandwish.Server.Repository.csproj": {
+    "C:\\Desenvolvimento\\sandwichexample\\Sandwish.Server.Repository\\Sandwish.Server.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Repository\\Sandwish.Server.Repository.csproj",
+        "projectUniqueName": "C:\\Desenvolvimento\\sandwichexample\\Sandwish.Server.Repository\\Sandwish.Server.Repository.csproj",
         "projectName": "Sandwish.Server.Repository",
-        "projectPath": "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Repository\\Sandwish.Server.Repository.csproj",
-        "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
-        "outputPath": "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Repository\\obj\\",
+        "projectPath": "C:\\Desenvolvimento\\sandwichexample\\Sandwish.Server.Repository\\Sandwish.Server.Repository.csproj",
+        "packagesPath": "C:\\Users\\NoteSONY\\.nuget\\packages\\",
+        "outputPath": "C:\\Desenvolvimento\\sandwichexample\\Sandwish.Server.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\NoteSONY\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
@@ -66,49 +56,34 @@
           "assetTargetFallback": true,
           "warn": true
         }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
-        }
       }
     },
-    "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Service\\Sandwish.Server.Service.csproj": {
+    "C:\\Desenvolvimento\\sandwichexample\\Sandwish.Server.Service\\Sandwish.Server.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Service\\Sandwish.Server.Service.csproj",
+        "projectUniqueName": "C:\\Desenvolvimento\\sandwichexample\\Sandwish.Server.Service\\Sandwish.Server.Service.csproj",
         "projectName": "Sandwish.Server.Service",
-        "projectPath": "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Service\\Sandwish.Server.Service.csproj",
-        "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
-        "outputPath": "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Service\\obj\\",
+        "projectPath": "C:\\Desenvolvimento\\sandwichexample\\Sandwish.Server.Service\\Sandwish.Server.Service.csproj",
+        "packagesPath": "C:\\Users\\NoteSONY\\.nuget\\packages\\",
+        "outputPath": "C:\\Desenvolvimento\\sandwichexample\\Sandwish.Server.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\NoteSONY\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Repository\\Sandwish.Server.Repository.csproj": {
-                "projectPath": "C:\\Desenvolvimento\\Dextra\\sandwichexample\\Sandwish.Server.Repository\\Sandwish.Server.Repository.csproj"
+              "C:\\Desenvolvimento\\sandwichexample\\Sandwish.Server.Repository\\Sandwish.Server.Repository.csproj": {
+                "projectPath": "C:\\Desenvolvimento\\sandwichexample\\Sandwish.Server.Repository\\Sandwish.Server.Repository.csproj"
               }
             }
           }
@@ -134,11 +109,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     }

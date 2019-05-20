@@ -1,9 +1,9 @@
-version: '2'
+version: '3.7'
 
 services:
   app: 
     build:
-      context: ./app
+      context: ./Sandwish.Server
       dockerfile: Dockerfile
     expose:
       - "5001"

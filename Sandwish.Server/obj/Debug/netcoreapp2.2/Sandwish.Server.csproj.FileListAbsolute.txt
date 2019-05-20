@@ -62,3 +62,8 @@ C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server\obj\Debug\netcoreapp2.
 C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server\obj\Debug\netcoreapp2.2\pt-BR\Sandwish.Server.resources.dll
 C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server\obj\Debug\netcoreapp2.2\Sandwish.Server.Resources.HandlerException.ExceptionLocalizer.en-US.resources
 C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server\obj\Debug\netcoreapp2.2\Sandwish.Server.Resources.HandlerException.ExceptionLocalizer.pt-BR.resources
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server\obj\Debug\netcoreapp2.2\en-US\Sandwish.Server.resources.cs
+C:\Desenvolvimento\Dextra\sandwichexample\Sandwish.Server\obj\Debug\netcoreapp2.2\pt-BR\Sandwish.Server.resources.cs
